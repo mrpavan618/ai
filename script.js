@@ -38,7 +38,7 @@ Make it engaging with:
     try {
 
         const response = await fetch(
-            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY,
+            "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" +"AQ.Ab8RN6K9HgKtwls--YL5EuDuoaUJT1sYj-YDB49KI28E_luOVA ,
             {
                 method: "POST",
                 headers: {
