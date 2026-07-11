@@ -1,0 +1,181 @@
+/* ===============================
+   VisionFlow AI - Dark Theme
+   =============================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:#ffffff;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    padding:40px 20px;
+    background:#161b22;
+    border-bottom:1px solid #30363d;
+}
+
+header h1{
+    font-size:38px;
+    color:#58a6ff;
+    margin-bottom:10px;
+}
+
+header p{
+    color:#8b949e;
+    font-size:16px;
+}
+
+/* Main Container */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+/* Card */
+
+.card{
+    background:#161b22;
+    padding:25px;
+    border-radius:18px;
+    border:1px solid #30363d;
+    box-shadow:0 0 20px rgba(0,0,0,.35);
+}
+
+.card h2{
+    margin-bottom:20px;
+    color:#58a6ff;
+}
+
+/* Labels */
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+/* Inputs */
+
+textarea,
+select{
+
+    width:100%;
+    background:#0d1117;
+    color:white;
+
+    border:1px solid #30363d;
+
+    border-radius:12px;
+
+    padding:14px;
+
+    font-size:15px;
+
+    outline:none;
+}
+
+textarea{
+    min-height:180px;
+    resize:vertical;
+}
+
+textarea:focus,
+select:focus{
+
+    border-color:#58a6ff;
+
+}
+
+/* Button */
+
+button{
+
+    width:100%;
+
+    margin-top:20px;
+
+    background:#238636;
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#2ea043;
+
+    transform:translateY(-2px);
+
+}
+
+/* Loading */
+
+#loading{
+
+    margin-bottom:15px;
+
+    color:#58a6ff;
+
+    font-weight:bold;
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#8b949e;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.container{
+
+grid-template-columns:1fr;
+
+}
+
+header h1{
+
+font-size:30px;
+
+}
+
+}
