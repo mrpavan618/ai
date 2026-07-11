@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VisionFlow AI</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1>🎬 VisionFlow AI</h1>
+    <p>Create Professional AI Videos from Any Topic</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+
+        <label>Enter Your Topic</label>
+
+        <textarea
+        id="topic"
+        placeholder="Example: How Artificial Intelligence Will Change the World"></textarea>
+
+        <label>Language</label>
+
+        <select id="language">
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Hinglish</option>
+        </select>
+
+        <label>Video Style</label>
+
+        <select id="style">
+            <option>Documentary</option>
+            <option>Finance</option>
+            <option>History</option>
+            <option>Technology</option>
+            <option>Motivation</option>
+        </select>
+
+        <button id="generateBtn">
+            Generate AI Script
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Generated Script</h2>
+
+        <div id="loading" style="display:none;">
+            ⏳ Generating Script...
+        </div>
+
+        <textarea
+        id="output"
+        placeholder="Your AI generated script will appear here..."
+        readonly></textarea>
+
+    </div>
+
+</div>
+
+<footer>
+Made with ❤️ by VisionFlow AI
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
