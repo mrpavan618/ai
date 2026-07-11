@@ -59,6 +59,8 @@ Make it engaging with:
         );
 
         const data = await response.json();
+        console.log(data);
+alert(JSON.stringify(data));
 
         output.value =
             data.candidates?.[0]?.content?.parts?.[0]?.text ||
